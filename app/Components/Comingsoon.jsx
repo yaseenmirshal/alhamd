@@ -3,7 +3,7 @@ import React from "react";
 const UnderConstruction = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-black">
-      <div className="text-center p-8 max-w-md">
+      <div className="text-center mt-[-50px]  p-8 max-w-md">
         <img
         width={250} height={250}
           src="./alhamdlogo.png" // Replace with your client's logo URL
