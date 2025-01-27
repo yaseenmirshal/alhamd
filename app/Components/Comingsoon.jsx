@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const UnderConstruction = () => {
@@ -25,7 +26,12 @@ const UnderConstruction = () => {
             alhamdtarder@gmail.com
           </a>
         </p>
+        <nav className="p-4 mt-5 bg-[#23293e] text-white">
+      <Link href="/admin">Admin</Link>
+      
+    </nav>
       </div>
+     
     </div>
   );
 };
